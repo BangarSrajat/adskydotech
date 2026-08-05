@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 130 42" width="130" height="42" role="img" aria-label="NexVera">
+  <title>NexVera</title>
+  <text font-family="'Space Grotesk','Arial Black',Arial,sans-serif" font-weight="800" font-size="28" letter-spacing="-1.2">
+    <tspan x="0" y="30" fill="#0D1117">Nex</tspan><tspan fill="#0958D9">Vera</tspan>
+  </text>
+  <circle cx="125" cy="12" r="4" fill="#13C2A3"/>
+</svg>

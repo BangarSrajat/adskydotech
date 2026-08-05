@@ -1,0 +1,10 @@
+RewriteEngine On
+
+# example.com/about ko example.com/about.php se serve karega
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME}.php -f
+RewriteRule ^([^\.]+)$ $1.php [NC,L]
+
+# Agar koi directly .php type kare to redirect kar do clean URL pe
+RewriteCond %{THE_REQUEST} /([^.]+)\.php[\s?] [NC]
+RewriteRule ^ /%1 [NC,L,R=301]
