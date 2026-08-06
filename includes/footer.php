@@ -7,7 +7,7 @@
 
         <!-- Brand -->
         <div class="col-lg-4">
-          <a href="index" class="footer-brand text-decoration-none d-inline-block"><img src="assets/img/logo.png" alt="NexVera" class="footer-logo-img" width="148" height="42"></a>
+          <a href="index" class="footer-brand text-decoration-none d-inline-block"><img src="assets/img/logo-white.svg" alt="NexVera" class="footer-logo-img" width="148" height="42"></a>
           <p class="footer-desc">Building the digital infrastructure of tomorrow from AI-powered platforms to enterprise
             web applications.</p>
           <div class="footer-social">
@@ -81,7 +81,7 @@
     <button class="info-panel-close" aria-label="Close panel"><i class="fa-solid fa-xmark"></i></button>
     <div class="info-panel-logo">
         <a href="index" class="navbar-brand text-decoration-none">
-          <img src="assets/img/logo.svg" alt="NexVera" class="navbar-logo-img" width="154" height="42">
+          <img src="assets/img/logo-white.svg" alt="NexVera" class="navbar-logo-img" width="154" height="42">
         </a>
     </div>
     <div class="info-panel-divider"></div>

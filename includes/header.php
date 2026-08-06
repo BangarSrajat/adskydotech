@@ -8,6 +8,7 @@
 
   <meta name="keywords" content="<?php echo $pageKeywords; ?>">
   <!-- Favicon -->
+    <link rel="icon" type="image/png" href="assets/img/favicon.png">
    <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
@@ -24,7 +25,7 @@
     <!-- Preloader -->
   <div class="preloader" role="status" aria-label="Loading">
     <div class="preloader-inner">
-      <img src="assets/img/logo.png" alt="NexVera" class="preloader-logo-img" width="148" height="42">
+      <img src="assets/img/logo-white.svg" alt="NexVera" class="preloader-logo-img" width="148" height="42">
       <div class="preloader-bar">
         <div class="preloader-bar-fill"></div>
       </div>
@@ -43,7 +44,7 @@
       <div class="d-flex align-items-center justify-content-between">
 
         <a href="index.html" class="navbar-brand text-decoration-none">
-          <img src="assets/img/logo.png" alt="NexVera" class="navbar-logo-img" width="154" height="42">
+          <img src="assets/img/logo-black.svg" alt="NexVera" class="navbar-logo-img" width="154" height="42">
         </a>
 
         <nav class="main-nav d-flex align-items-center gap-1">
@@ -100,7 +101,7 @@
         </nav>
 
         <div class="nav-actions">
-          <a href="contact" class="nav-outline d-none d-xl-inline-flex">Get in Touch</a>
+         
           <a href="contact" class="nav-cta">Start Project</a>
           <!-- <button class="info-panel-btn d-none d-xl-inline-flex" aria-label="Open info panel"><span
               class="info-panel-btn-dot"></span><span class="info-panel-btn-dot"></span><span
