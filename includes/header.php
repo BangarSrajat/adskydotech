@@ -25,7 +25,7 @@
     <!-- Preloader -->
   <div class="preloader" role="status" aria-label="Loading">
     <div class="preloader-inner">
-      <img src="assets/img/logo-white.svg" alt="NexVera" class="preloader-logo-img" width="148" height="42">
+      <img src="assets/img/logo-white.svg" alt="NexVera" class="preloader-logo-img" width="250" height="142">
       <div class="preloader-bar">
         <div class="preloader-bar-fill"></div>
       </div>
@@ -43,7 +43,7 @@
     <div class="container">
       <div class="d-flex align-items-center justify-content-between">
 
-        <a href="index.html" class="navbar-brand text-decoration-none">
+        <a href="index" class="navbar-brand text-decoration-none">
           <img src="assets/img/logo-black.svg" alt="NexVera" class="navbar-logo-img" width="154" height="42">
         </a>
 

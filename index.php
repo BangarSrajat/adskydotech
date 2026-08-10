@@ -11,144 +11,58 @@ include 'includes/header.php';
   <!-- ============================================================
        HERO
        ============================================================ -->
-  <section class="hero-section" id="home">
-    <div class="hero-bg-pattern"></div>
-    <div class="hero-blob-1"></div>
-    <div class="hero-blob-2"></div>
-
+  <section class="home2-hero hero-dark-trigger" id="home">
+    <div class="home2-hero__bg"></div>
+    <div class="home2-hero__overlay"></div>
     <div class="container">
-      <div class="row align-items-center g-5">
-
-        <!-- Left: Text -->
-        <div class="col-lg-6 hero-content" data-aos="fade-right" data-aos-duration="800">
-          <div class="hero-tag">
-            <span class="dot"></span>
-            Trusted by 2,000+ Companies Worldwide
-          </div>
-
-          <h1 class="hero-title">
-            We Build <br />
-            <span class="hero-typed text-gradient"
-              data-typed-strings='["Digital Products","Web Platforms","AI Solutions","Mobile Apps","SaaS Tools"]'>Digital
-              Products</span><br />
-            That Scale
+      <div class="home2-hero__row">
+        <!-- LEFT COLUMN - Text Content -->
+        <div class="home2-hero__inner" data-aos="fade-up" data-aos-duration="800">
+          <span class="home2-hero__tag"><span class="dot"></span> Trusted IT partner since 2013</span>
+          <h1 class="home2-hero__title">
+            Smart Technology for <span class="text-gradient">Forward-Thinking</span> Businesses
           </h1>
-
-          <p class="hero-description">
-            NexVera is a full-stack technology company delivering cutting-edge digital solutions from scalable web
-            applications to AI-powered platforms that drive real business growth.
+          <p class="home2-hero__desc">
+            We help enterprises and startups design, build and scale digital products from secure cloud
+            platforms to AI-driven applications engineered for real-world growth.
           </p>
-
-          <div class="hero-actions">
-            <a href="contact" class="btn-primary-custom btn-lg-custom">
-              Start Your Project <i class="fa-solid fa-arrow-right"></i>
-            </a>
-            <a href="https://www.youtube.com/watch?v=ypTcyx9OqdA" class="hero-play-btn glightbox">
+          <div class="home2-hero__actions">
+            <a href="contact.php" class="btn-primary-custom btn-lg-custom">Get a Free Consultation <i
+                class="fa-solid fa-arrow-right"></i></a>
+            <a href="#" class="hero-play-btn glightbox">
               <div class="play-icon"><i class="fa-solid fa-play"></i></div>
-              Watch Overview
             </a>
           </div>
-
-          <div class="hero-stats">
-            <div class="hero-stat-item">
-              <div class="hero-stat-number">12+</div>
-              <div class="hero-stat-label">Years Experience</div>
+          <div class="home2-hero__trust">
+            <div class="home2-hero__trust-item">
+              <span class="home2-hero__trust-num">12+</span>
+              <span class="home2-hero__trust-label">Years of expertise</span>
             </div>
-            <div class="hero-stat-divider"></div>
-            <div class="hero-stat-item">
-              <div class="hero-stat-number">400+</div>
-              <div class="hero-stat-label">Projects Delivered</div>
+            <div class="home2-hero__trust-item">
+              <span class="home2-hero__trust-num">400+</span>
+              <span class="home2-hero__trust-label">Projects delivered</span>
             </div>
-            <div class="hero-stat-divider"></div>
-            <div class="hero-stat-item">
-              <div class="hero-stat-number">98%</div>
-              <div class="hero-stat-label">Client Satisfaction</div>
+            <div class="home2-hero__trust-item">
+              <span class="home2-hero__trust-num">98%</span>
+              <span class="home2-hero__trust-label">Client retention</span>
             </div>
           </div>
         </div>
 
-        <!-- Right: Bento Mosaic -->
-        <div class="col-lg-6 hero-bento-col" data-aos="fade-left" data-aos-duration="800" data-aos-delay="200">
-          <div class="hero-bento">
-
-            <div class="bento-tile bento-photo-lg">
-              <img src="assets/img/team-culture.jpg" alt="NexVera team building digital products" loading="eager" />
-              <span class="bento-badge"><i class="fa-solid fa-circle-check"></i> ISO 27001 Certified</span>
+        <!-- RIGHT COLUMN - Image -->
+        <div class="home2-hero__image" data-aos="fade-left" data-aos-duration="800" data-aos-delay="200">
+          <div class="about-image-main">
+          <img src="assets/img/about/about-1.jpg" alt="Software Development Services" class="img-fluid">
+</div>
+          <div class="about-image-accent">
+              <img src="assets/img/about/about-2.jpg" alt="Office Environment" loading="lazy" />
             </div>
-
-            <div class="bento-tile bento-accent">
-              <div class="bento-accent-icon"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4.5 16.5c-1.5 1.26-2 5-2 5s3.74-.5 5-2c.71-.98.5-2.5 0-3l-3-3c-.5-.5-2.02-.71-3 0z"></path><path d="M12 15l-3-3a22 22 0 0 1 2-3.95A12.88 12.88 0 0 1 22 2c0 2.72-.78 7.5-6 11a22.35 22.35 0 0 1-4 2z"></path><path d="M9 12H4s.55-3.03 2-4c1.62-1.08 5 0 5 0"></path><path d="M12 15v5s3.03-.55 4-2c1.08-1.62 0-5 0-5"></path></svg></div>
-              <div class="bento-accent-num">+340%</div>
-              <div class="bento-accent-label">Faster performance after launch</div>
-            </div>
-
-            <div class="bento-tile bento-photo-sm">
-              <img src="assets/img/intro-1.jpg" alt="AI and machine learning" loading="lazy" />
-              <span class="bento-tag">AI / ML</span>
-            </div>
-
-            <div class="bento-tile bento-dark">
-              <div class="bento-clients">
-                <div class="bento-avatars">
-                  <img src="assets/img/avatars/user-1.jpg" alt="" loading="lazy" />
-                  <img src="assets/img/avatars/user-2.jpg" alt="" loading="lazy" />
-                  <img src="assets/img/avatars/user-3.jpg" alt="" loading="lazy" />
-                  <img src="assets/img/avatars/user-4.jpg" alt="" loading="lazy" />
-                </div>
-                <div class="bento-clients-meta">
-                  <div class="bento-clients-num">2,000+ clients</div>
-                  <div class="bento-stars">
-                    <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
-                      class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
-                    <span>4.9/5</span>
-                  </div>
-                </div>
-              </div>
-              <a href="https://www.youtube.com/watch?v=ypTcyx9OqdA" class="bento-play glightbox"
-                aria-label="Watch overview">
-                <i class="fa-solid fa-play"></i>
-              </a>
-            </div>
-
-          </div>
         </div>
-
       </div>
     </div>
   </section>
 
-  <!-- ============================================================
-       CLIENTS MARQUEE
-       ============================================================ -->
-<div class="clients-section">
-    <div class="container-fluid px-4">
-      <div class="d-flex align-items-center overflow-hidden gap-4">
-        <span class="clients-label d-none d-md-block">TRUSTED BY</span>
-        <div class="flex-1 overflow-hidden">
-          <div class="d-flex">
-            <div class="marquee-track">
-              <span class="client-logo-item"><i class="fa-solid fa-play"></i> Techwave</span>
-              <span class="client-logo-item"><i class="fa-solid fa-hexagon"></i> Cloudera</span>
-              <span class="client-logo-item"><i class="fa-solid fa-circle icon-accent"></i>
-                NovaSys</span>
-              <span class="client-logo-item"><i class="fa-solid fa-square icon-highlight"></i>
-                Axiom</span>
-              <span class="client-logo-item"><i class="fa-solid fa-gem"></i> QuantumIT</span>
-              <span class="client-logo-item"><i class="fa-solid fa-star icon-star"></i> PulseHub</span>
-              <span class="client-logo-item"><i class="fa-solid fa-play"></i> Techwave</span>
-              <span class="client-logo-item"><i class="fa-solid fa-hexagon"></i> Cloudera</span>
-              <span class="client-logo-item"><i class="fa-solid fa-circle icon-accent"></i>
-                NovaSys</span>
-              <span class="client-logo-item"><i class="fa-solid fa-square icon-highlight"></i>
-                Axiom</span>
-              <span class="client-logo-item"><i class="fa-solid fa-gem"></i> QuantumIT</span>
-              <span class="client-logo-item"><i class="fa-solid fa-star icon-star"></i> PulseHub</span>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
+
 
   <!-- ============================================================
        ABOUT PREVIEW
@@ -157,28 +71,13 @@ include 'includes/header.php';
     <div class="container">
       <div class="row align-items-center g-5">
 
-        <!-- Image -->
-        <div class="col-lg-6" data-aos="fade-right">
-          <div class="about-image-wrap">
-            <div class="about-exp-badge">
-              <div class="about-exp-number">12+</div>
-              <div class="about-exp-text">Years of<br>Excellence</div>
-            </div>
-            <div class="about-image-main">
-              <img src="assets/img/about/about-1.jpg" alt="Our Team at Work" loading="lazy" />
-            </div>
-            <div class="about-image-accent">
-              <img src="assets/img/about/about-2.jpg" alt="Office Environment" loading="lazy" />
-            </div>
-          </div>
-        </div>
-
+      
         <!-- Content -->
         <div class="col-lg-6 ps-lg-5" data-aos="fade-left" data-aos-delay="150">
-          <div class="section-tag">About NexVera</div>
+          <div class="section-tag">About Adskydo.tech</div>
           <h2 class="section-title">We Turn Vision Into <span class="text-gradient">Digital Reality</span></h2>
           <p class="section-subtitle mb-4">
-            Founded in 2012, NexVera has been at the forefront of technological innovation helping startups and
+            Founded in 2012, Adskydo.tech has been at the forefront of technological innovation helping startups and
             enterprises build the digital infrastructure they need to compete in a rapidly evolving world.
           </p>
 
@@ -206,7 +105,21 @@ include 'includes/header.php';
             <a href="team" class="btn-outline-custom">Meet the Team</a>
           </div>
         </div>
-
+ <!-- Image -->
+        <div class="col-lg-6" data-aos="fade-right">
+          <div class="about-image-wrap">
+            <div class="about-exp-badge">
+              <div class="about-exp-number">12+</div>
+              <div class="about-exp-text">Years of<br>Excellence</div>
+            </div>
+            <div class="about-image-main">
+              <img src="assets/img/about/about-1.jpg" alt="Our Team at Work" loading="lazy" />
+            </div>
+            <div class="about-image-accent">
+              <img src="assets/img/about/about-2.jpg" alt="Office Environment" loading="lazy" />
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </section>
@@ -218,16 +131,11 @@ include 'includes/header.php';
     <div class="container">
 
       <div class="row justify-content-between align-items-end mb-5">
-        <div class="col-lg-6" data-aos="fade-right">
+        <div class="col-lg-8" data-aos="fade-right">
           <div class="section-tag">What We Do</div>
           <h2 class="section-title">Services Built for <span class="text-gradient">Modern Business</span></h2>
         </div>
-        <div class="col-lg-5" data-aos="fade-left">
-          <p class="section-subtitle">From rapid MVP development to enterprise-scale platforms we deliver end-to-end
-            technology services that accelerate your growth.</p>
-          <a href="services" class="service-link mt-3 d-inline-flex">View All Services <i
-              class="fa-solid fa-arrow-right"></i></a>
-        </div>
+        
       </div>
 
       <div class="row g-4">
@@ -374,61 +282,7 @@ include 'includes/header.php';
     </div>
   </section>
 
-  <!-- ============================================================
-       HOW IT WORKS
-       ============================================================ -->
-  <section class="section-py process-section">
-    <div class="container">
-
-      <div class="text-center mb-5" data-aos="fade-up">
-        <div class="section-tag mx-auto">Our Process</div>
-        <h2 class="section-title">How We Deliver <span class="text-gradient">Exceptional Results</span></h2>
-        <p class="section-subtitle mx-auto text-center">A proven 4-step process refined over 12 years and 400+ projects.
-        </p>
-      </div>
-
-      <div class="row g-4">
-        <div class="col-sm-6 col-lg-3" data-aos="fade-up" data-aos-delay="0">
-          <div class="process-step">
-            <div class="process-step-number">01</div>
-            <div class="process-step-connector"></div>
-            <h2 class="process-step-title h4">Discovery & Strategy</h2>
-            <p class="process-step-text">Deep-dive into your goals, users, and constraints. We map the full product
-              landscape before writing a single line of code.</p>
-          </div>
-        </div>
-        <div class="col-sm-6 col-lg-3" data-aos="fade-up" data-aos-delay="100">
-          <div class="process-step">
-            <div class="process-step-number">02</div>
-            <div class="process-step-connector"></div>
-            <h2 class="process-step-title h4">Design & Prototype</h2>
-            <p class="process-step-text">Wireframes, interactive prototypes, and design systems. approve exactly what
-              will be built before development starts.</p>
-          </div>
-        </div>
-        <div class="col-sm-6 col-lg-3" data-aos="fade-up" data-aos-delay="200">
-          <div class="process-step">
-            <div class="process-step-number">03</div>
-            <div class="process-step-connector"></div>
-            <h2 class="process-step-title h4">Build & Test</h2>
-            <p class="process-step-text">Agile sprints with weekly demos. Automated testing at every layer unit,
-              integration, and ensuring rock-solid quality.</p>
-          </div>
-        </div>
-        <div class="col-sm-6 col-lg-3" data-aos="fade-up" data-aos-delay="300">
-          <div class="process-step">
-            <div class="process-step-number">04</div>
-            <h2 class="process-step-title h4">Launch & Scale</h2>
-            <p class="process-step-text">Zero-downtime deployment with full monitoring. Post-launch support and
-              continuous iteration to grow with your business.</p>
-          </div>
-        </div>
-      </div>
-
-    </div>
-  </section>
-
-  <!-- ============================================================
+<!-- ============================================================
        COUNTER
        ============================================================ -->
   <div class="section-py counter-section" id="stats">
@@ -496,6 +350,64 @@ include 'includes/header.php';
       </div>
     </div>
   </div>
+
+
+
+  <!-- ============================================================
+       HOW IT WORKS
+       ============================================================ -->
+  <section class="section-py process-section">
+    <div class="container">
+
+      <div class="text-center mb-5" data-aos="fade-up">
+        <div class="section-tag mx-auto">Our Process</div>
+        <h2 class="section-title">How We Deliver <span class="text-gradient">Exceptional Results</span></h2>
+        <p class="section-subtitle mx-auto text-center">A proven 4-step process refined over 12 years and 400+ projects.
+        </p>
+      </div>
+
+      <div class="row g-4">
+        <div class="col-sm-6 col-lg-3" data-aos="fade-up" data-aos-delay="0">
+          <div class="process-step">
+            <div class="process-step-number">01</div>
+            <div class="process-step-connector"></div>
+            <h2 class="process-step-title h4">Discovery & Strategy</h2>
+            <p class="process-step-text">Deep-dive into your goals, users, and constraints. We map the full product
+              landscape before writing a single line of code.</p>
+          </div>
+        </div>
+        <div class="col-sm-6 col-lg-3" data-aos="fade-up" data-aos-delay="100">
+          <div class="process-step">
+            <div class="process-step-number">02</div>
+            <div class="process-step-connector"></div>
+            <h2 class="process-step-title h4">Design & Prototype</h2>
+            <p class="process-step-text">Wireframes, interactive prototypes, and design systems. approve exactly what
+              will be built before development starts.</p>
+          </div>
+        </div>
+        <div class="col-sm-6 col-lg-3" data-aos="fade-up" data-aos-delay="200">
+          <div class="process-step">
+            <div class="process-step-number">03</div>
+            <div class="process-step-connector"></div>
+            <h2 class="process-step-title h4">Build & Test</h2>
+            <p class="process-step-text">Agile sprints with weekly demos. Automated testing at every layer unit,
+              integration, and ensuring rock-solid quality.</p>
+          </div>
+        </div>
+        <div class="col-sm-6 col-lg-3" data-aos="fade-up" data-aos-delay="300">
+          <div class="process-step">
+            <div class="process-step-number">04</div>
+            <h2 class="process-step-title h4">Launch & Scale</h2>
+            <p class="process-step-text">Zero-downtime deployment with full monitoring. Post-launch support and
+              continuous iteration to grow with your business.</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  
 
   <!-- ============================================================
        PORTFOLIO
@@ -644,7 +556,7 @@ include 'includes/header.php';
                 <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
                   class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
               </div>
-              <p class="testimonial-text">NexVera delivered our entire platform in 4 months on time, on budget, and far
+              <p class="testimonial-text">Adskydo.tech delivered our entire platform in 4 months on time, on budget, and far
                 exceeding our expectations. Their engineering quality is unmatched.</p>
               <div class="testimonial-author">
                 <img src="assets/img/avatars/user-1.jpg" alt="Alex Morgan" class="testimonial-avatar"
@@ -684,7 +596,7 @@ include 'includes/header.php';
                 <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
                   class="fa-solid fa-star"></i><i class="fa-solid fa-star-half"></i>
               </div>
-              <p class="testimonial-text">From discovery to launch, the NexVera team was a true partner. The
+              <p class="testimonial-text">From discovery to launch, the Adskydo.tech team was a true partner. The
                 communication, design thinking, and code quality are at a completely different level.</p>
               <div class="testimonial-author">
                 <img src="assets/img/avatars/user-3.jpg" alt="Carlos Mendez" class="testimonial-avatar"
@@ -705,7 +617,7 @@ include 'includes/header.php';
                   class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
               </div>
               <p class="testimonial-text">Our mobile app went from concept to the App Store in 90 days. 50,000 downloads
-                in the first month. NexVera made the impossible happen.</p>
+                in the first month. Adskydo.tech made the impossible happen.</p>
               <div class="testimonial-author">
                 <img src="assets/img/avatars/user-4.jpg" alt="Sarah Chen" class="testimonial-avatar"
                   loading="lazy" />
@@ -727,13 +639,13 @@ include 'includes/header.php';
   <!-- ============================================================
        TEAM PREVIEW
        ============================================================ -->
-  <section class="section-py" id="team">
+  <!-- <section class="section-py" id="team">
     <div class="container">
 
       <div class="row justify-content-between align-items-end mb-5">
         <div class="col-lg-6" data-aos="fade-right">
           <div class="section-tag">Meet The Team</div>
-          <h2 class="section-title">The Brilliant Minds <span class="text-gradient">Behind NexVera</span></h2>
+          <h2 class="section-title">The Brilliant Minds <span class="text-gradient">Behind Adskydo.tech</span></h2>
         </div>
         <div class="col-lg-4 text-lg-end" data-aos="fade-left">
           <a href="team." class="btn-outline-custom">View Full Team <i class="fa-solid fa-arrow-right"></i></a>
@@ -815,7 +727,7 @@ include 'includes/header.php';
       </div>
 
     </div>
-  </section>
+  </section> -->
 
   <!-- ============================================================
        PRICING PREVIEW
@@ -912,6 +824,29 @@ include 'includes/header.php';
     </div>
   </section>
 
+
+ <!-- ============================================================
+       CTA
+       ============================================================ -->
+  <section class="section-py cta-section">
+    <div class="cta-blob cta-blob-1"></div>
+    <div class="cta-blob cta-blob-2"></div>
+    <div class="container">
+      <div class="cta-content" data-aos="fade-up">
+        <div class="section-tag accent mx-auto mb-4 section-tag--inline-flex">Ready to Build Something Great?</div>
+        <h2 class="cta-title">Let's Transform Your <br class="d-none d-md-block" />Business Together</h2>
+        <p class="cta-text">Whether you're a startup with a big idea or an enterprise ready to modernize Adskydo.tech has the
+          team and technology to make it happen.</p>
+        <div class="cta-actions">
+          <a href="contact" class="btn-white-custom btn-lg-custom">Schedule a Free Consultation <i
+              class="fa-solid fa-arrow-right"></i></a>
+          <a href="portfolio" class="btn-ghost-white btn-lg-custom">View Our Work</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
   <!-- ============================================================
        BLOG
        ============================================================ -->
@@ -1007,26 +942,7 @@ include 'includes/header.php';
     </div>
   </section>
 
-  <!-- ============================================================
-       CTA
-       ============================================================ -->
-  <section class="section-py cta-section">
-    <div class="cta-blob cta-blob-1"></div>
-    <div class="cta-blob cta-blob-2"></div>
-    <div class="container">
-      <div class="cta-content" data-aos="fade-up">
-        <div class="section-tag accent mx-auto mb-4 section-tag--inline-flex">Ready to Build Something Great?</div>
-        <h2 class="cta-title">Let's Transform Your <br class="d-none d-md-block" />Business Together</h2>
-        <p class="cta-text">Whether you're a startup with a big idea or an enterprise ready to modernize NexVera has the
-          team and technology to make it happen.</p>
-        <div class="cta-actions">
-          <a href="contact" class="btn-white-custom btn-lg-custom">Schedule a Free Consultation <i
-              class="fa-solid fa-arrow-right"></i></a>
-          <a href="portfolio" class="btn-ghost-white btn-lg-custom">View Our Work</a>
-        </div>
-      </div>
-    </div>
-  </section>
+ 
 
   
     <?php include 'includes/footer.php';?>
