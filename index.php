@@ -556,7 +556,7 @@ include 'includes/header.php';
                 <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
                   class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
               </div>
-              <p class="testimonial-text">Adskydo.tech delivered our entire platform in 4 months on time, on budget, and far
+              <p class="testimonial-text">NexVera delivered our entire platform in 4 months on time, on budget, and far
                 exceeding our expectations. Their engineering quality is unmatched.</p>
               <div class="testimonial-author">
                 <img src="assets/img/avatars/user-1.jpg" alt="Alex Morgan" class="testimonial-avatar"
@@ -596,7 +596,7 @@ include 'includes/header.php';
                 <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
                   class="fa-solid fa-star"></i><i class="fa-solid fa-star-half"></i>
               </div>
-              <p class="testimonial-text">From discovery to launch, the Adskydo.tech team was a true partner. The
+              <p class="testimonial-text">From discovery to launch, the NexVera team was a true partner. The
                 communication, design thinking, and code quality are at a completely different level.</p>
               <div class="testimonial-author">
                 <img src="assets/img/avatars/user-3.jpg" alt="Carlos Mendez" class="testimonial-avatar"
@@ -617,7 +617,7 @@ include 'includes/header.php';
                   class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
               </div>
               <p class="testimonial-text">Our mobile app went from concept to the App Store in 90 days. 50,000 downloads
-                in the first month. Adskydo.tech made the impossible happen.</p>
+                in the first month. NexVera made the impossible happen.</p>
               <div class="testimonial-author">
                 <img src="assets/img/avatars/user-4.jpg" alt="Sarah Chen" class="testimonial-avatar"
                   loading="lazy" />
@@ -636,98 +636,7 @@ include 'includes/header.php';
     </div>
   </section>
 
-  <!-- ============================================================
-       TEAM PREVIEW
-       ============================================================ -->
-  <!-- <section class="section-py" id="team">
-    <div class="container">
-
-      <div class="row justify-content-between align-items-end mb-5">
-        <div class="col-lg-6" data-aos="fade-right">
-          <div class="section-tag">Meet The Team</div>
-          <h2 class="section-title">The Brilliant Minds <span class="text-gradient">Behind Adskydo.tech</span></h2>
-        </div>
-        <div class="col-lg-4 text-lg-end" data-aos="fade-left">
-          <a href="team." class="btn-outline-custom">View Full Team <i class="fa-solid fa-arrow-right"></i></a>
-        </div>
-      </div>
-
-      <div class="row g-4">
-        <div class="col-sm-6 col-lg-3" data-aos="fade-up" data-aos-delay="0">
-          <div class="team-card">
-            <div class="team-img-wrap">
-              <img src="assets/img/teams/team-8.jpg" alt="Marcus Webb" class="team-img"
-                loading="lazy" />
-              <div class="team-social-overlay">
-                <a href="#" class="team-social-btn"><i class="fa-brands fa-linkedin"></i></a>
-                <a href="#" class="team-social-btn"><i class="fa-brands fa-github"></i></a>
-                <a href="#" class="team-social-btn"><i class="fa-solid fa-arrow-right"></i></a>
-              </div>
-            </div>
-            <div class="team-info">
-              <a href="#" class="team-name text-decoration-none">Marcus Webb</a>
-              <div class="team-role">CEO & Co-Founder</div>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-sm-6 col-lg-3" data-aos="fade-up" data-aos-delay="100">
-          <div class="team-card">
-            <div class="team-img-wrap">
-              <img src="assets/img/teams/team-3.jpg" alt="Elena Vasquez" class="team-img"
-                loading="lazy" />
-              <div class="team-social-overlay">
-                <a href="#" class="team-social-btn"><i class="fa-brands fa-linkedin"></i></a>
-                <a href="#" class="team-social-btn"><i class="fa-brands fa-github"></i></a>
-                <a href="#" class="team-social-btn"><i class="fa-solid fa-arrow-right"></i></a>
-              </div>
-            </div>
-            <div class="team-info">
-              <a href="#" class="team-name text-decoration-none">Elena Vasquez</a>
-              <div class="team-role">CTO & Lead Architect</div>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-sm-6 col-lg-3" data-aos="fade-up" data-aos-delay="200">
-          <div class="team-card">
-            <div class="team-img-wrap">
-              <img src="assets/img/teams/team-4.jpg" alt="James Okafor" class="team-img"
-                loading="lazy" />
-              <div class="team-social-overlay">
-                <a href="#" class="team-social-btn"><i class="fa-brands fa-linkedin"></i></a>
-                <a href="#" class="team-social-btn"><i class="fa-brands fa-github"></i></a>
-                <a href="#" class="team-social-btn"><i class="fa-solid fa-arrow-right"></i></a>
-              </div>
-            </div>
-            <div class="team-info">
-              <a href="#" class="team-name text-decoration-none">James Okafor</a>
-              <div class="team-role">Head of Engineering</div>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-sm-6 col-lg-3" data-aos="fade-up" data-aos-delay="300">
-          <div class="team-card">
-            <div class="team-img-wrap">
-              <img src="assets/img/teams/team-5.jpg" alt="Aisha Tanaka" class="team-img"
-                loading="lazy" />
-              <div class="team-social-overlay">
-                <a href="#" class="team-social-btn"><i class="fa-brands fa-linkedin"></i></a>
-                <a href="#" class="team-social-btn"><i class="fa-brands fa-github"></i></a>
-                <a href="#" class="team-social-btn"><i class="fa-solid fa-arrow-right"></i></a>
-              </div>
-            </div>
-            <div class="team-info">
-              <a href="#" class="team-name text-decoration-none">Aisha Tanaka</a>
-              <div class="team-role">Creative Director</div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-    </div>
-  </section> -->
+  
 
   <!-- ============================================================
        PRICING PREVIEW

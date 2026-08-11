@@ -3110,12 +3110,13 @@ p {
 .testimonial-card {
   background: var(--tmv-color-white);
   border-radius: var(--tmv-radius-xl);
-  padding: 2rem;
+  padding: 1.5rem; 
   border: 1px solid var(--tmv-color-border);
-  height: 100%;
+  /* height: 100%; */
   transition: var(--tmv-transition);
   position: relative;
 }
+
 
 .testimonial-card:hover {
   box-shadow: var(--tmv-shadow-hover);
@@ -3124,7 +3125,7 @@ p {
 }
 
 .testimonial-quote {
-  font-size: 3rem;
+  font-size: 2.25rem;
   color: var(--tmv-color-primary-light);
   font-family: Georgia, serif;
   line-height: 1;
@@ -3146,7 +3147,7 @@ p {
 .testimonial-text {
   font-size: var(--tmv-fs-base);
   color: var(--tmv-color-text-secondary);
-  line-height: 1.8;
+  line-height: 1.5;  
   margin-bottom: 1.5rem;
   font-style: italic;
 }
@@ -3155,6 +3156,7 @@ p {
   display: flex;
   align-items: center;
   gap: 0.875rem;
+  margin-top: auto; 
 }
 
 .testimonial-avatar {
@@ -3612,9 +3614,9 @@ p {
    22. CTA SECTION
    ============================================================ */
 .cta-section {
-  background: linear-gradient(135deg, var(--tmv-color-dark) 0%, #0D2060 100%);
-  position: relative;
-  overflow: hidden;
+  background: linear-gradient(4deg, var(--tmv-color-dark) 0%, #2b2b2b);
+    position: relative;
+    overflow: hidden;
 }
 
 .cta-section::before {
@@ -3633,7 +3635,7 @@ p {
 .cta-blob-1 {
   width: 400px;
   height: 400px;
-  background: radial-gradient(circle, rgba(9, 88, 217, 0.4) 0%, transparent 70%);
+  background: radial-gradient(circle, rgb(255 235 59 / 20%) 0%, transparent 70%);
   top: -200px;
   left: -100px;
 }
@@ -6772,7 +6774,7 @@ a.sidebar-dl-link:hover {
 }
 
 .contact-info-card:hover .contact-info-icon {
-  background: var(--tmv-color-primary);
+  background: var( --tmv-color-primary-dark);
   color: var(--tmv-color-white);
   transform: scale(1.1) rotate(-5deg);
 }

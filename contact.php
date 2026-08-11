@@ -41,7 +41,7 @@ include 'includes/header.php';
                   stroke="currentColor" stroke-width="1.46667" stroke-linecap="round" stroke-linejoin="round"></path>
               </svg></div>
             <h1 class="h5">Email Us</h1>
-            <p><a href="/cdn-cgi/l/email-protection#1179747d7d7e517f7469677463703f787e"><span class="__cf_email__" data-cfemail="234b464f4f4c634d465b554651420d4a4c">[email&#160;protected]</span></a><br /><a href="/cdn-cgi/l/email-protection#f093918295958283b09e958886958291de999f"><span class="__cf_email__" data-cfemail="76151704131304053618130e00130417581f19">[email&#160;protected]</span></a></p>
+            <p><a href="mailto:info@adskydotech.com">info@adskydotech.com</a><br /><a href="mailto:support@adskydotech.com">support@adskydotech.com</a></p>
           </div>
         </div>
         <div class="col-sm-6 col-lg-3" data-aos="fade-up" data-aos-delay="80">
@@ -93,7 +93,37 @@ include 'includes/header.php';
       <div class="row g-5 align-items-start">
 
         <!-- Form -->
-        <div class="col-lg-7" data-aos="fade-right">
+       
+        <div class="col-lg-5" data-aos="fade-left" data-aos-delay="100">
+
+
+          <!-- Office Hours -->
+          <div class="contact-hours-card mb-4">
+            <h2 class="sw-cf-title h5">Office Hours</h2>
+            <ul class="contact-hours-list">
+              <li><span>Monday &ndash; Friday</span><span>9:00 AM &ndash; 6:00 PM PST</span></li>
+              <li><span>Saturday</span><span>10:00 AM &ndash; 2:00 PM PST</span></li>
+              <li><span>Sunday</span><span class="contact-hours-closed">Closed</span></li>
+            </ul>
+            <p class="mt-3 mb-0 contact-hours-note">For enterprise clients, 24/7 dedicated support is available through
+              your account manager.</p>
+          </div>
+
+          <!-- Social Links -->
+          <div class="contact-social-wrap">
+            <h2 class="mb-3 h5">Find Us Online</h2>
+            <div class="d-flex flex-column gap-2">
+              <a href="#" class="contact-social-link"><i class="fa-brands fa-linkedin"></i>
+                linkedin.com/company/nexvera</a>
+              <a href="#" class="contact-social-link"><i class="fa-brands fa-x-twitter"></i> @nexvera_io</a>
+              <a href="#" class="contact-social-link"><i class="fa-brands fa-github"></i> github.com/nexvera</a>
+              <a href="#" class="contact-social-link"><i class="fa-brands fa-dribbble"></i> dribbble.com/nexvera</a>
+            </div>
+          </div>
+
+        </div>
+        <!-- Right Column -->
+         <div class="col-lg-7" data-aos="fade-right">
           <div class="contact-form-wrap">
             <div class="section-tag">Send a Message</div>
             <h2 class="section-title mb-2">Start the Conversation</h2>
@@ -137,18 +167,15 @@ include 'includes/header.php';
                 <div class="col-12">
                   <label class="contact-form-label" id="services-label">Service(s) Needed</label>
                   <div class="contact-checkbox-grid">
-                    <label class="contact-checkbox-item"><input type="checkbox" name="services[]" value="web-dev" /><span>Web
-                        Development</span></label>
-                    <label class="contact-checkbox-item"><input type="checkbox" name="services[]" value="mobile-app" /><span>Mobile
-                        App</span></label>
-                    <label class="contact-checkbox-item"><input type="checkbox" name="services[]" value="ai-ml" /><span>AI &amp;
-                        ML</span></label>
-                    <label class="contact-checkbox-item"><input type="checkbox" name="services[]" value="cloud-devops" /><span>Cloud &amp;
-                        DevOps</span></label>
-                    <label class="contact-checkbox-item"><input type="checkbox" name="services[]" value="ui-ux" /><span>UI/UX
-                        Design</span></label>
+                    <label class="contact-checkbox-item"><input type="checkbox" name="services[]" value="web-dev" /><span>Web  Development</span></label>
+                    <label class="contact-checkbox-item"><input type="checkbox" name="services[]" value="Digital-Marketing" /><span>Digital Marketing
+                        </span></label>
+                    <label class="contact-checkbox-item"><input type="checkbox" name="services[]" value="CMS-Development" /><span>CMS Development</span></label>
+                    <label class="contact-checkbox-item"><input type="checkbox" name="services[]" value="React-Development" /><span>React Development</span></label>
+                    <label class="contact-checkbox-item"><input type="checkbox" name="services[]" value="Graphic-Design" /><span>Graphic Design
+                        </span></label>
                     <label class="contact-checkbox-item"><input type="checkbox" name="services[]"
-                        value="security" /><span>Cybersecurity</span></label>
+                        value="ui-ux" /><span>Ui & UX</span></label>
                   </div>
                 </div>
                 <div class="col-12">
@@ -169,44 +196,6 @@ include 'includes/header.php';
               </div>
             </form>
           </div>
-        </div>
-
-        <!-- Right Column -->
-        <div class="col-lg-5" data-aos="fade-left" data-aos-delay="100">
-
-          <!-- Map -->
-          <div class="contact-map-wrap mb-4">
-            <iframe
-              src="https://www.openstreetmap.org/export/embed.html?bbox=-122.4244%2C37.7910%2C-122.4044%2C37.8010&amp;layer=mapnik&amp;marker=37.7960%2C-122.4144"
-              height="300" class="map-iframe" allowfullscreen="" loading="lazy"
-              title="NexVera Office Location">
-            </iframe>
-          </div>
-
-          <!-- Office Hours -->
-          <div class="contact-hours-card mb-4">
-            <h2 class="sw-cf-title h5">Office Hours</h2>
-            <ul class="contact-hours-list">
-              <li><span>Monday &ndash; Friday</span><span>9:00 AM &ndash; 6:00 PM PST</span></li>
-              <li><span>Saturday</span><span>10:00 AM &ndash; 2:00 PM PST</span></li>
-              <li><span>Sunday</span><span class="contact-hours-closed">Closed</span></li>
-            </ul>
-            <p class="mt-3 mb-0 contact-hours-note">For enterprise clients, 24/7 dedicated support is available through
-              your account manager.</p>
-          </div>
-
-          <!-- Social Links -->
-          <div class="contact-social-wrap">
-            <h2 class="mb-3 h5">Find Us Online</h2>
-            <div class="d-flex flex-column gap-2">
-              <a href="#" class="contact-social-link"><i class="fa-brands fa-linkedin"></i>
-                linkedin.com/company/nexvera</a>
-              <a href="#" class="contact-social-link"><i class="fa-brands fa-x-twitter"></i> @nexvera_io</a>
-              <a href="#" class="contact-social-link"><i class="fa-brands fa-github"></i> github.com/nexvera</a>
-              <a href="#" class="contact-social-link"><i class="fa-brands fa-dribbble"></i> dribbble.com/nexvera</a>
-            </div>
-          </div>
-
         </div>
       </div>
     </div>

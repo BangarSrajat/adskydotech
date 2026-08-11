@@ -7,7 +7,7 @@
 
         <!-- Brand -->
         <div class="col-lg-4">
-          <a href="index" class="footer-brand text-decoration-none d-inline-block"><img src="assets/img/logo-white.svg" alt="NexVera" class="footer-logo-img" width="148" height="42"></a>
+          <a href="index" class="footer-brand text-decoration-none d-inline-block"><img src="assets/img/logo-white.svg" alt="Adskydotech" class="footer-logo-img" width="148" height="42"></a>
           <p class="footer-desc">Building the digital infrastructure of tomorrow from AI-powered platforms to enterprise
             web applications.</p>
           <div class="footer-social">
@@ -35,11 +35,11 @@
         <div class="col-sm-6 col-lg-2">
           <div class="footer-heading">Services</div>
           <ul class="footer-links">
-            <li><a href="service-single" class="footer-link">Web Development</a></li>
-            <li><a href="service-single" class="footer-link">Digital Marketing</a></li>
-            <li><a href="service-single" class="footer-link">CMS Development</a></li>
-            <li><a href="service-single" class="footer-link">Graphic Design</a></li>
-            <li><a href="service-single" class="footer-link">UI/UX Design</a></li>
+            <li><a href="web" class="footer-link">Web Development</a></li>
+            <li><a href="digital" class="footer-link">Digital Marketing</a></li>
+            <li><a href="cms" class="footer-link">CMS Development</a></li>
+            <li><a href="graphic" class="footer-link">Graphic Design</a></li>
+            <li><a href="react" class="footer-link">React JS</a></li>
           </ul>
         </div>
 
@@ -64,7 +64,7 @@
     <div class="footer-bottom">
       <div class="container">
         <div class="d-flex align-items-center justify-content-between flex-wrap gap-3">
-          <p class="footer-bottom-text mb-0">Copyright 2026 <a class="copyright-text" href="#">NexVera.</a> All Right
+          <p class="footer-bottom-text mb-0">Copyright 2026 <a class="copyright-text" href="#">Adskydotech.</a> All Right
             Reserves.</p>
           <div class="footer-bottom-links">
             <a href="#" class="footer-bottom-link">Privacy Policy</a>
@@ -81,7 +81,7 @@
     <button class="info-panel-close" aria-label="Close panel"><i class="fa-solid fa-xmark"></i></button>
     <div class="info-panel-logo">
         <a href="index" class="navbar-brand text-decoration-none">
-          <img src="assets/img/logo-white.svg" alt="NexVera" class="navbar-logo-img" width="154" height="42">
+          <img src="assets/img/logo-white.svg" alt="Adskydotech" class="navbar-logo-img" width="154" height="42">
         </a>
     </div>
     <div class="info-panel-divider"></div>
@@ -108,7 +108,7 @@
           </svg></div>
         <div>
           <div class="info-panel-contact-label">Email</div>
-          <div class="info-panel-contact-value"><a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="8ae2efe6e6e5cae4eff2fceff8eba4e9e5e7">[email&#160;protected]</a></div>
+          <div class="info-panel-contact-value"><a href="mailto:info@adskydotech.com">info@adskydotech.com</a></div>
         </div>
       </div>
       <div class="info-panel-contact-item">
@@ -123,7 +123,7 @@
           </svg></div>
         <div>
           <div class="info-panel-contact-label">Address</div>
-          <div class="info-panel-contact-value">123 Innovation Ave, SF, CA 94105</div>
+          <div class="info-panel-contact-value">30 N Gould St Ste R,Sheridan WY 82801 USA</div>
         </div>
       </div>
       <div class="info-panel-contact-item">
@@ -170,6 +170,39 @@
     </div>
   </div>
 
+
+  <!-- WhatsApp Floating Button -->
+<a href="https://wa.me/91XXXXXXXXXX?text=Hello!%20I%20have%20a%20query" 
+   class="whatsapp-float" 
+   target="_blank" 
+   rel="noopener noreferrer">
+  <svg viewBox="0 0 24 24" width="30" height="30" fill="white">
+    <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/>
+    <path d="M12.001 2C6.478 2 2 6.478 2 12c0 1.892.526 3.657 1.438 5.163L2 22l4.955-1.396A9.945 9.945 0 0012.001 22C17.524 22 22 17.522 22 12S17.524 2 12.001 2zm0 18.166a8.144 8.144 0 01-4.155-1.14l-.298-.177-3.096.873.86-3.146-.194-.323a8.14 8.14 0 01-1.28-4.386c0-4.507 3.674-8.176 8.166-8.176 4.507 0 8.176 3.669 8.176 8.176 0 4.507-3.669 8.299-8.179 8.299z"/>
+  </svg>
+</a>
+
+<style>
+.whatsapp-float {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 30px;
+  left: 30px;
+  background-color: #25D366;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 2px 2px 8px rgba(0,0,0,0.3);
+  z-index: 1000;
+  transition: transform 0.2s ease-in-out;
+}
+
+.whatsapp-float:hover {
+  transform: scale(1.1);
+}
+</style>
   <!-- Scripts -->
    
   
