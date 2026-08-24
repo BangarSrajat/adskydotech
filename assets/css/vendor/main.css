@@ -2210,7 +2210,7 @@ p {
 .about-image-main {
   border-radius: var(--tmv-radius-xl);
   overflow: hidden;
-  box-shadow: var(--tmv-shadow-xl);
+  /* box-shadow: var(--tmv-shadow-xl); */
   position: relative;
   z-index: 1;
 }
@@ -2218,7 +2218,7 @@ p {
 .about-image-main img {
   width: 100%;
   height: 500px;
-  object-fit: cover;
+  /* object-fit: cover; */
 }
 
 .about-image-accent {

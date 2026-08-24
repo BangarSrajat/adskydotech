@@ -1,10 +1,9 @@
-<body>
+
 <?php 
 
 $pageTitle = "Best Software Development Company in India | YourCompany";
 $pageDescription = "We provide WordPress, PHP, Shopify & Ecommerce development services.";
 $pageKeywords = "software development, wordpress development, php development";
-
 include 'includes/header.php';
 ?>
 <!-- Page Hero -->

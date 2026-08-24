@@ -11,21 +11,21 @@
           <p class="footer-desc">Building the digital infrastructure of tomorrow from AI-powered platforms to enterprise
             web applications.</p>
           <div class="footer-social">
-            <a href="#" class="footer-social-link"><i class="fa-brands fa-x-twitter"></i></a>
-            <a href="#" class="footer-social-link"><i class="fa-brands fa-linkedin"></i></a>
-            <a href="#" class="footer-social-link"><i class="fa-brands fa-github"></i></a>
-            <a href="#" class="footer-social-link"><i class="fa-brands fa-dribbble"></i></a>
-            <a href="#" class="footer-social-link"><i class="fa-brands fa-youtube"></i></a>
+            <a href="https://x.com/adskydotech" class="footer-social-link"><i class="fa-brands fa-x-twitter"></i></a>
+            <a href="https://www.linkedin.com/company/adskydtech/" class="footer-social-link"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="#" class="footer-social-link"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://www.instagram.com/adskydotech/" class="footer-social-link"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.youtube.com/@AdSkydoTech" class="footer-social-link"><i class="fa-brands fa-youtube"></i></a>
           </div>
         </div>
 
-        <!-- Links -->
+        <!-- Links -->  
         <div class="col-sm-6 col-lg-2">
           <div class="footer-heading">Company</div>
           <ul class="footer-links">
             <li><a href="index" class="footer-link">Home</a></li>
             <li><a href="about" class="footer-link">About Us</a></li>
-            <li><a href="team" class="footer-link">Services</a></li>
+            <li><a href="services" class="footer-link">Services</a></li>
             <li><a href="portfolio" class="footer-link">Portfolio</a></li>
             <li><a href="blog" class="footer-link">Blog</a></li>
             
@@ -35,22 +35,21 @@
         <div class="col-sm-6 col-lg-2">
           <div class="footer-heading">Services</div>
           <ul class="footer-links">
-            <li><a href="web" class="footer-link">Web Development</a></li>
-            <li><a href="digital" class="footer-link">Digital Marketing</a></li>
-            <li><a href="cms" class="footer-link">CMS Development</a></li>
-            <li><a href="graphic" class="footer-link">Graphic Design</a></li>
-            <li><a href="react" class="footer-link">React JS</a></li>
+            <li><a href="web-development" class="footer-link">Web Development</a></li>
+            <li><a href="digital-marketing" class="footer-link">Digital Marketing</a></li>
+            <li><a href="affiliate-marketing" class="footer-link">Affiliate marketing</a></li>
+            <li><a href="graphic-design" class="footer-link">Graphic Design</a></li>
+            <li><a href="performance-marketing" class="footer-link">Performance Marketing</a></li>
           </ul>
         </div>
 
         <!-- Newsletter -->
         <div class="col-lg-4">
-          <div class="footer-heading">Newsletter</div>
-          <p class="footer-newsletter-label">Get weekly insights on technology, design, and building great products. No
-            spam, ever.</p>
+          <div class="footer-heading">Request A Call</div>
+          <p class="footer-newsletter-label">Have a project in mind? Schedule a call with our team and let’s discuss how we can help.</p>
           <form class="footer-newsletter-form newsletter-form-el">
             <input type="email" id="footer-newsletter-email" class="footer-newsletter-input" placeholder="your@email.com" aria-label="Email address" required />
-            <button type="submit" class="footer-newsletter-btn">Subscribe</button>
+            <button type="submit" class="footer-newsletter-btn">Send Request</button>
           </form>
           <div class="mt-3 d-flex gap-3">
             <span class="footer-newsletter-meta"><i class="fa-solid fa-shield-halved me-1"></i>No spam, ever</span>
@@ -67,8 +66,8 @@
           <p class="footer-bottom-text mb-0">Copyright 2026 <a class="copyright-text" href="#">Adskydotech.</a> All Right
             Reserves.</p>
           <div class="footer-bottom-links">
-            <a href="#" class="footer-bottom-link">Privacy Policy</a>
-            <a href="#" class="footer-bottom-link">Terms of Service</a>
+            <a href="privacy" class="footer-bottom-link">Privacy Policy</a>
+            <a href="terms" class="footer-bottom-link">Terms of Service</a>
           </div>
         </div>
       </div>
@@ -164,8 +163,8 @@
         <a href="#" aria-label="X / Twitter"><i class="fa-brands fa-x-twitter"></i></a>
         <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
         <a href="#" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
-        <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
-        <a href="#" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+        <a href="https://www.instagram.com/adskydotech/" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+        <a href="https://www.youtube.com/@AdSkydoTech" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
       </div>
     </div>
   </div>
