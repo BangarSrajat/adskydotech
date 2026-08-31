@@ -1,4 +1,16 @@
 <head>
+  <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-6WSB7ZZ952"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-6WSB7ZZ952');
+</script>
+
+
+
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   
@@ -19,6 +31,7 @@
   <link rel="stylesheet" href="assets/css/vendor/glightbox.min.css" />
   <link rel="stylesheet" href="assets/css/vendor/main.css" />
 </head>
+ 
 
 <body>
     <!-- Preloader -->
@@ -48,27 +61,28 @@
 
         <nav class="main-nav d-flex align-items-center gap-1">
          
-            <a href="index" class="nav-link nav-link-parent">Home 
+            <a href="index" class="nav-link">Home 
               </a>
-              <a href="about" class="nav-dropdown-link">About Us</a>
-              
-               
-              <div class="nav-item-dropdown">
+              <a href="about" class="nav-link">About Us</a>
+                <div class="nav-item-dropdown">
             <a href="services" class="nav-link nav-link-parent">Services <i class="fa-solid fa-chevron-down nav-chevron"></i></a>
             <div class="nav-dropdown">
-              <a href="web" class="nav-dropdown-link">Web Development</a>
-              <a href="graphic" class="nav-dropdown-link">Graphic Design</a>
-              <a href="digital" class="nav-dropdown-link">Digital Marketing</a>
-              <a href="cms" class="nav-dropdown-link">CMS Development</a>
-               <a href="react" class="nav-dropdown-link">React Development</a>
+              <a href="web-development" class="nav-dropdown-link">Web Development</a>
+              <a href="graphic-design" class="nav-dropdown-link">Graphic Design</a>
+              <a href="digital-marketing" class="nav-dropdown-link">Digital Marketing</a>
+              <a href="affiliate-marketing" class="nav-dropdown-link">Affiliate Marketing</a>
+               <a href="hosting" class="nav-dropdown-link">Hosting and Server</a>
+               <a href="performance-marketing" class="nav-dropdown-link">Performance Marketing</a>
             </div>
           </div>
-              
-              
-              <a href="pricing" class="nav-dropdown-link">Pricing</a>
-              <a href="portfolio" class="nav-dropdown-link">Portfolio</a>
-              <a href="blog" class="nav-dropdown-link">Blog</a>
+                <a href="pricing" class="nav-link">Pricing</a>
+              <a href="portfolio" class="nav-link">Portfolio</a>
+              <a href="blog" class="nav-link">Blog</a>
                <a href="contact" class="nav-link">Contact</a>
+               
+            
+              
+              
         
           <!-- <div class="nav-item-dropdown">
             <a href="#" class="nav-link nav-link-parent">Pages <i class="fa-solid fa-chevron-down nav-chevron"></i></a>
@@ -102,13 +116,13 @@
         <div class="nav-actions">
          
           <a href="contact" class="nav-cta">Start Project</a>
-          <!-- <button class="info-panel-btn d-none d-xl-inline-flex" aria-label="Open info panel"><span
+           <!-- <button class="info-panel-btn d-none d-xl-inline-flex" aria-label="Open info panel"><span
               class="info-panel-btn-dot"></span><span class="info-panel-btn-dot"></span><span
               class="info-panel-btn-dot"></span><span class="info-panel-btn-dot"></span><span
-              class="info-panel-btn-dot"></span><span class="info-panel-btn-dot"></span></button>
+              class="info-panel-btn-dot"></span><span class="info-panel-btn-dot"></span></button> -->
           <button class="navbar-toggler-custom d-xl-none" aria-label="Toggle navigation">
             <span></span><span></span><span></span>
-          </button> -->
+          </button> 
         </div>
 
       </div>

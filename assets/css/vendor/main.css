@@ -8253,17 +8253,16 @@ section .counter-number.text-gradient {
 }
 
 /* Article Cover */
-.article-cover {
+/* .article-cover {
   border-radius: var(--tmv-radius-xl);
   overflow: hidden;
   margin-bottom: 3rem;
   box-shadow: 0 8px 40px rgba(0, 0, 0, .1);
-}
+} */
 
 .article-cover img {
   width: 100%;
-  height: 460px;
-  object-fit: cover;
+  height: auto;
   display: block;
 }
 

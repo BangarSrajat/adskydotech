@@ -1,12 +1,8 @@
-<body>
 <?php 
-
-$pageTitle = "Best Software Development Company in India | YourCompany";
-$pageDescription = "We provide WordPress, PHP, Shopify & Ecommerce development services.";
+$pageTitle = "Contact AdskydoTech | Get in Touch for Web and Digital marketing services";
+$pageDescription = "Contact AdskydoTech for web development, digital marketing, graphic design, hosting, and technology solutions. Let's discuss your project and grow your business online.";
 $pageKeywords = "software development, wordpress development, php development";
-
 include 'includes/header.php';
-
 ?>
 
  <!-- Page Hero -->
@@ -113,11 +109,11 @@ include 'includes/header.php';
           <div class="contact-social-wrap">
             <h2 class="mb-3 h5">Find Us Online</h2>
             <div class="d-flex flex-column gap-2">
-              <a href="#" class="contact-social-link"><i class="fa-brands fa-linkedin"></i>
-                linkedin.com/company/nexvera</a>
-              <a href="#" class="contact-social-link"><i class="fa-brands fa-x-twitter"></i> @nexvera_io</a>
-              <a href="#" class="contact-social-link"><i class="fa-brands fa-github"></i> github.com/nexvera</a>
-              <a href="#" class="contact-social-link"><i class="fa-brands fa-dribbble"></i> dribbble.com/nexvera</a>
+              <a href="https://www.linkedin.com/company/adskydtech/" class="contact-social-link"><i class="fa-brands fa-linkedin"></i>Linkedin @AdSkydoTech</a>
+              <a href="https://x.com/adskydotech" class="contact-social-link"><i class="fa-brands fa-x-twitter"></i> Twitter @AdSkydoTech</a>
+              <a href="https://www.instagram.com/adskydotech/" class="contact-social-link"><i class="fa-brands fa-Instagram"></i> Instagram @AdSkydoTech</a>
+              <a href="#" class="contact-social-link"><i class="fa-brands fa-Facebook"></i>FaceBook @AdSkydoTech </a>
+               <a href="https://www.youtube.com/@AdSkydoTech" class="contact-social-link"><i class="fa-brands fa-youtube"></i> YouTube @AdSkydoTech</a>
             </div>
           </div>
 
