@@ -11,7 +11,7 @@ include 'includes/header.php';
       <div class="row g-5">
 
         <!-- Article column -->
-        <div class="col-lg-8">
+        <div class="col-lg-12">
 
           <!-- Article body -->
           <div class="article-body" data-aos="fade-up">

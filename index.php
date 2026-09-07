@@ -3,6 +3,7 @@ $pageTitle = "Web Development and Digital Marketing Agency | AdSkydoTech";
 $pageDescription = "AdSkydoTech is a web development and digital marketing agency offering SEO, Google Ads, Meta Ads, website design, and growth solutions for businesses.";
 include 'includes/header.php';
 ?>
+<!-- Google tag (gtag.js) --> <script async src="https://www.googletagmanager.com/gtag/js?id=AW-18374546989"></script> <script>   window.dataLayer = window.dataLayer || [];   function gtag(){dataLayer.push(arguments);}   gtag('js', new Date());   gtag('config', 'AW-18374546989'); </script>
   <!-- ============================================================
 
        HERO

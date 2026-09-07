@@ -13,7 +13,7 @@
           <div class="footer-social">
             <a href="https://x.com/adskydotech" class="footer-social-link"><i class="fa-brands fa-x-twitter"></i></a>
             <a href="https://www.linkedin.com/company/adskydtech/" class="footer-social-link"><i class="fa-brands fa-linkedin"></i></a>
-            <a href="#" class="footer-social-link"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://www.facebook.com/profile.php?id=61594055219655" class="footer-social-link"><i class="fa-brands fa-facebook"></i></a>
             <a href="https://www.instagram.com/adskydotech/" class="footer-social-link"><i class="fa-brands fa-instagram"></i></a>
             <a href="https://www.youtube.com/@AdSkydoTech" class="footer-social-link"><i class="fa-brands fa-youtube"></i></a>
           </div>
@@ -63,7 +63,7 @@
     <div class="footer-bottom">
       <div class="container">
         <div class="d-flex align-items-center justify-content-between flex-wrap gap-3">
-          <p class="footer-bottom-text mb-0">Copyright 2026 <a class="copyright-text" href="#">Adskydotech.</a> All Right
+          <p class="footer-bottom-text mb-0">Copyright 2026 <a class="copyright-text"> Adskydo Technologies Private Limited.</a> All Right
             Reserves.</p>
           <div class="footer-bottom-links">
             <a href="privacy" class="footer-bottom-link">Privacy Policy</a>
@@ -171,7 +171,7 @@
 
 
   <!-- WhatsApp Floating Button -->
-<a href="https://wa.me/91XXXXXXXXXX?text=Hello!%20I%20have%20a%20query" 
+<a href="https://wa.me/+919098028968?text=Hello!%20I%20have%20a%20query" 
    class="whatsapp-float" 
    target="_blank" 
    rel="noopener noreferrer">

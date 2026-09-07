@@ -30,6 +30,7 @@
   <link rel="stylesheet" href="assets/css/vendor/swiper-bundle.min.css" />  
   <link rel="stylesheet" href="assets/css/vendor/glightbox.min.css" />
   <link rel="stylesheet" href="assets/css/vendor/main.css" />
+  
 </head>
  
 
@@ -128,3 +129,4 @@
       </div>
     </div>
   </header>
+
