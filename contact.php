@@ -112,8 +112,8 @@ include 'includes/header.php';
             <div class="d-flex flex-column gap-2">
               <a href="https://www.linkedin.com/company/adskydtech/" class="contact-social-link"><i class="fa-brands fa-linkedin"></i>Linkedin @AdSkydoTech</a>
               <a href="https://x.com/adskydotech" class="contact-social-link"><i class="fa-brands fa-x-twitter"></i> Twitter @AdSkydoTech</a>
-              <a href="https://www.instagram.com/adskydotech/" class="contact-social-link"><i class="fa-brands fa-Instagram"></i> Instagram @AdSkydoTech</a>
-              <a href="https://www.facebook.com/profile.php?id=61594055219655" class="contact-social-link"><i class="fa-brands fa-Facebook"></i>FaceBook @AdSkydoTech </a>
+              <a href="https://www.instagram.com/adskydotech/" class="contact-social-link"><i class="fa-brands fa-instagram"></i> instagram @AdSkydoTech</a>
+              <a href="https://www.facebook.com/profile.php?id=61594055219655" class="contact-social-link"><i class="fa-brands fa-facebook"></i>FaceBook @AdSkydoTech </a>
                <a href="https://www.youtube.com/@AdSkydoTech" class="contact-social-link"><i class="fa-brands fa-youtube"></i> YouTube @AdSkydoTech</a>
             </div>
           </div>

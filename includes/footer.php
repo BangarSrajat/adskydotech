@@ -66,6 +66,7 @@
           <p class="footer-bottom-text mb-0">Copyright 2026 <a class="copyright-text"> Adskydo Technologies Private Limited.</a> All Right
             Reserves.</p>
           <div class="footer-bottom-links">
+             <a href="unsubscribe" class="footer-bottom-link">Unsubscribe</a>
             <a href="privacy" class="footer-bottom-link">Privacy Policy</a>
             <a href="terms" class="footer-bottom-link">Terms of Service</a>
           </div>
@@ -186,7 +187,7 @@
   position: fixed;
   width: 60px;
   height: 60px;
-  bottom: 30px;
+  bottom: 66px;
   left: 30px;
   background-color: #25D366;
   border-radius: 50%;

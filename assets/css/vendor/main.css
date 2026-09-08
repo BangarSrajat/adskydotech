@@ -592,7 +592,7 @@ p {
 .back-to-top {
   position: fixed;
   bottom: 2rem;
-  right: 2rem;
+  right: 7px;
   width: 48px;
   height: 48px;
   background: var(--tmv-color-primary);

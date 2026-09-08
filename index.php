@@ -533,7 +533,7 @@ include 'includes/header.php';
   <section class="section-py testimonials-section">
     <div class="container">
 
-      <div class="text-center mb-5" data-aos="fade-up">
+      <div class="text-center " data-aos="fade-up">
         <div class="section-tag">Client Reviews</div>
         <h2 class="section-title">What Our Clients <span class="text-gradient">Say About Us</span></h2>
       </div>
@@ -622,7 +622,7 @@ include 'includes/header.php';
           </div>
 
         </div>
-        <div class="swiper-pagination swiper-pagination-custom mt-4"></div>
+        <div class="swiper-pagination swiper-pagination-custom"></div>
       </div>
 
     </div>
@@ -782,7 +782,7 @@ include 'includes/header.php';
   <!-- ============================================================
        BLOG
        ============================================================ -->
-  <section class="section-py" id="blog">
+  <!-- <section class="section-py" id="blog">
     <div class="container">
 
       <div class="row justify-content-between align-items-end mb-5">
@@ -871,5 +871,5 @@ include 'includes/header.php';
         </div>
       </div>
     </div>
-  </section>
+  </section> -->
     <?php include 'includes/footer.php';?>

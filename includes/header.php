@@ -1,4 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+
 <head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <meta name="description"
+    content="<?php echo $pageDescription; ?>" />
+  <title><?php echo $pageTitle; ?></title>
+
+  <meta name="keywords" content="<?php echo $pageKeywords; ?>">
   <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-6WSB7ZZ952"></script>
 <script>
@@ -10,15 +21,6 @@
 </script>
 
 
-
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  
-  <meta name="description"
-    content="<?php echo $pageDescription; ?>" />
-  <title><?php echo $pageTitle; ?></title>
-
-  <meta name="keywords" content="<?php echo $pageKeywords; ?>">
   <!-- Favicon -->
     <link rel="icon" type="image/svg+xml" href="assets/img/favicon.svg">
    <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -30,7 +32,6 @@
   <link rel="stylesheet" href="assets/css/vendor/swiper-bundle.min.css" />  
   <link rel="stylesheet" href="assets/css/vendor/glightbox.min.css" />
   <link rel="stylesheet" href="assets/css/vendor/main.css" />
-  
 </head>
  
 
@@ -129,4 +130,3 @@
       </div>
     </div>
   </header>
-
