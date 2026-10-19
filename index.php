@@ -105,7 +105,7 @@ include 'includes/header.php';
               <div class="about-exp-number">3+</div>
               <div class="about-exp-text">Years of<br>Excellence</div>
             </div>
-            <div class="about-image-main">
+            <div class="about-image-main-about">
               <img src="assets/img/about/About-33.png" alt="" loading="lazy" />
             </div>
             
@@ -533,7 +533,7 @@ include 'includes/header.php';
   <section class="section-py testimonials-section">
     <div class="container">
 
-      <div class="text-center " data-aos="fade-up">
+      <div class="text-center mb-5" data-aos="fade-up">
         <div class="section-tag">Client Reviews</div>
         <h2 class="section-title">What Our Clients <span class="text-gradient">Say About Us</span></h2>
       </div>
@@ -622,7 +622,7 @@ include 'includes/header.php';
           </div>
 
         </div>
-        <div class="swiper-pagination swiper-pagination-custom"></div>
+        <div class="swiper-pagination swiper-pagination-custom mt-4"></div>
       </div>
 
     </div>
@@ -659,8 +659,8 @@ include 'includes/header.php';
             <div class="pricing-plan-name">Starter</div>
             <div class="pricing-plan-desc">Perfect for early-stage startups and small projects.</div>
             <div class="pricing-price-wrap">
-              <span class="pricing-currency"></span>
-              <span class="pricing-amount"><span class="price-monthly">3,000</span><span class="price-annual">2,500</span></span>
+              <span class="pricing-currency">$</span>
+              <span class="pricing-amount"><span class="price-monthly">199</span><span class="price-annual">149</span></span>
               <span class="pricing-period"> / month</span>
             </div>
             <hr class="pricing-divider" />
@@ -671,7 +671,7 @@ include 'includes/header.php';
               <li class="pricing-feature"><i class="fa-solid fa-circle-check"></i> Free Hosting (For 1st year)</li>
               <li class="pricing-feature"><i class="fa-solid fa-circle-check"></i> Free SSL (For 1st Year)</li>
               <li class="pricing-feature"><i class="fa-solid fa-circle-check"></i> Dynamic Website</li>
-              <li class="pricing-feature"><i class="fa-solid fa-circle-check"></i> Gallery Section</li>
+              <!-- <li class="pricing-feature"><i class="fa-solid fa-circle-check"></i> Gallery Section</li>
               <li class="pricing-feature"><i class="fa-solid fa-circle-check"></i> Wishlist</li>
               <li class="pricing-feature"><i class="fa-solid fa-circle-check"></i> Coupons Redeem</li>
               <li class="pricing-feature"><i class="fa-solid fa-circle-check"></i> Whatsapp Intrrigation</li>
@@ -679,7 +679,7 @@ include 'includes/header.php';
               <li class="pricing-feature"><i class="fa-solid fa-circle-check"></i> Mobile/Web Responsive</li>
               <li class="pricing-feature"><i class="fa-solid fa-circle-check"></i> PopUp Contact Form</li>
               <li class="pricing-feature"><i class="fa-solid fa-circle-check"></i> Slider</li>
-              <li class="pricing-feature"><i class="fa-solid fa-circle-check"></i> Booking System</li>
+              <li class="pricing-feature"><i class="fa-solid fa-circle-check"></i> Booking System</li> -->
             </ul>
             <a href="contact" class="btn-outline-custom w-100 justify-content-center">Get Started Free</a>
           </div>
@@ -691,8 +691,8 @@ include 'includes/header.php';
             <div class="pricing-plan-name">Growth</div>
             <div class="pricing-plan-desc">Ideal for growing teams with advanced needs.</div>
             <div class="pricing-price-wrap">
-              <span class="pricing-currency">₹</span>
-              <span class="pricing-amount"><span class="price-monthly">5,000</span><span class="price-annual">4,500</span></span>
+              <span class="pricing-currency">$</span>
+              <span class="pricing-amount"><span class="price-monthly">299</span><span class="price-annual">249</span></span>
               <span class="pricing-period"> / month</span>
             </div>
             <hr class="pricing-divider" />
@@ -703,7 +703,7 @@ include 'includes/header.php';
               <li class="pricing-feature"><i class="fa-solid fa-circle-check"></i> Free Hosting (For 1st year)</li>
               <li class="pricing-feature"><i class="fa-solid fa-circle-check"></i> Free SSL (For 1st Year)</li>
               <li class="pricing-feature"><i class="fa-solid fa-circle-check"></i> Dynamic Website</li>
-              <li class="pricing-feature"><i class="fa-solid fa-circle-check"></i> Gallery Section</li>
+              <!-- <li class="pricing-feature"><i class="fa-solid fa-circle-check"></i> Gallery Section</li>
               <li class="pricing-feature"><i class="fa-solid fa-circle-check"></i> Payment Gateway</li>
               <li class="pricing-feature"><i class="fa-solid fa-circle-check"></i> Wishlist</li>
               <li class="pricing-feature"><i class="fa-solid fa-circle-check"></i> Coupons Redeem</li>
@@ -716,7 +716,7 @@ include 'includes/header.php';
               <li class="pricing-feature"><i class="fa-solid fa-circle-check"></i> PopUp Contact Form</li>
               <li class="pricing-feature"><i class="fa-solid fa-circle-check"></i> SEO Optimized Content</li>
               <li class="pricing-feature"><i class="fa-solid fa-circle-check"></i> Slider</li>
-              <li class="pricing-feature"><i class="fa-solid fa-circle-check"></i> Booking System</li>
+              <li class="pricing-feature"><i class="fa-solid fa-circle-check"></i> Booking System</li> -->
             </ul>
             <a href="contact" class="btn-primary-custom w-100 justify-content-center">Start Free Trial</a>
           </div>
@@ -731,13 +731,13 @@ include 'includes/header.php';
             </div>
             <hr class="pricing-divider" />
             <ul class="pricing-features">
-             <li class="pricing-feature"><i class="fa-solid fa-circle-check"></i> Up To 5 Pages</li>
+             <li class="pricing-feature"><i class="fa-solid fa-circle-check"></i> Custom Pages</li>
               <li class="pricing-feature"><i class="fa-solid fa-circle-check"></i> Free Logo</li>
               <li class="pricing-feature"><i class="fa-solid fa-circle-check"></i> Free Domain (For 1st Year)</li>
               <li class="pricing-feature"><i class="fa-solid fa-circle-check"></i> Free Hosting (For 1st year)</li>
               <li class="pricing-feature"><i class="fa-solid fa-circle-check"></i> Free SSL (For 1st Year)</li>
               <li class="pricing-feature"><i class="fa-solid fa-circle-check"></i> Dynamic Website</li>
-              <li class="pricing-feature"><i class="fa-solid fa-circle-check"></i> Gallery Section</li>
+              <!-- <li class="pricing-feature"><i class="fa-solid fa-circle-check"></i> Gallery Section</li>
               <li class="pricing-feature"><i class="fa-solid fa-circle-check"></i> Wishlist</li>
               <li class="pricing-feature"><i class="fa-solid fa-circle-check"></i> Coupons Redeem</li>
               <li class="pricing-feature"><i class="fa-solid fa-circle-check"></i> Whatsapp Intrrigation</li>
@@ -746,7 +746,7 @@ include 'includes/header.php';
               <li class="pricing-feature"><i class="fa-solid fa-circle-check"></i> PopUp Contact Form</li>
               <li class="pricing-feature"><i class="fa-solid fa-circle-check"></i> Slider</li>
               <li class="pricing-feature"><i class="fa-solid fa-circle-check"></i> Booking System</li>
-            </ul>
+            </ul> -->
             <a href="contact" class="btn-outline-custom w-100 justify-content-center">Contact Sales</a>
           </div>
         </div>

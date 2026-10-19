@@ -23,11 +23,11 @@
         <div class="col-sm-6 col-lg-2">
           <div class="footer-heading">Company</div>
           <ul class="footer-links">
-            <li><a href="index" class="footer-link">Home</a></li>
-            <li><a href="about" class="footer-link">About Us</a></li>
-            <li><a href="services" class="footer-link">Services</a></li>
-            <li><a href="portfolio" class="footer-link">Portfolio</a></li>
-            <li><a href="blog" class="footer-link">Blog</a></li>
+            <li><a href="<?php echo $root; ?>index" class="footer-link">Home</a></li>
+            <li><a href="<?php echo $root; ?>about" class="footer-link">About Us</a></li>
+            <li><a href="<?php echo $root; ?>services" class="footer-link">Services</a></li>
+            <li><a href="<?php echo $root; ?>portfolio" class="footer-link">Portfolio</a></li>
+            <li><a href="<?php echo $root; ?>blog" class="footer-link">Blog</a></li>
             
           </ul>
         </div>
@@ -35,11 +35,11 @@
         <div class="col-sm-6 col-lg-2">
           <div class="footer-heading">Services</div>
           <ul class="footer-links">
-            <li><a href="web-development" class="footer-link">Web Development</a></li>
-            <li><a href="digital-marketing" class="footer-link">Digital Marketing</a></li>
-            <li><a href="affiliate-marketing" class="footer-link">Affiliate marketing</a></li>
-            <li><a href="graphic-design" class="footer-link">Graphic Design</a></li>
-            <li><a href="performance-marketing" class="footer-link">Performance Marketing</a></li>
+            <li><a href="<?php echo $root; ?>web-development" class="footer-link">Web Development</a></li>
+            <li><a href="<?php echo $root; ?>digital-marketing" class="footer-link">Digital Marketing</a></li>
+            <li><a href="<?php echo $root; ?>affiliate-marketing" class="footer-link">Affiliate marketing</a></li>
+            <li><a href="<?php echo $root; ?>graphic-design" class="footer-link">Graphic Design</a></li>
+            <li><a href="<?php echo $root; ?>performance-marketing" class="footer-link">Performance Marketing</a></li>
           </ul>
         </div>
 
@@ -66,9 +66,9 @@
           <p class="footer-bottom-text mb-0">Copyright 2026 <a class="copyright-text"> Adskydo Technologies Private Limited.</a> All Right
             Reserves.</p>
           <div class="footer-bottom-links">
-             <a href="unsubscribe" class="footer-bottom-link">Unsubscribe</a>
-            <a href="privacy" class="footer-bottom-link">Privacy Policy</a>
-            <a href="terms" class="footer-bottom-link">Terms of Service</a>
+             <a href="<?php echo $root; ?>unsubscribe" class="footer-bottom-link">Unsubscribe</a>
+            <a href="<?php echo $root; ?>privacy" class="footer-bottom-link">Privacy Policy</a>
+            <a href="<?php echo $root; ?>terms" class="footer-bottom-link">Terms of Service</a>
           </div>
         </div>
       </div>

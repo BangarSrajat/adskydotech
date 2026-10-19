@@ -971,6 +971,13 @@ p {
   .hero-tag {
     font-size: var(--tmv-fs-xs);
   }
+  .about-image-main img {
+   display:none;
+}
+
+.col-3{
+  width: 49%;
+}
 }
 
 .hero-tag .dot {
@@ -1025,10 +1032,16 @@ p {
   .hero-title>br {
     display: none;
   }
-
+ .about-image-main img {
+   display:none;
+}
   .hero-description {
     max-width: 100%;
   }
+
+  .col-3{
+  width: 49%;
+}
 }
 
 .hero-actions {

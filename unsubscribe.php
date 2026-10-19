@@ -50,23 +50,22 @@ margin-top:15px;
 border:1px solid #ddd;
 border-radius:5px;
 font-size:14px;
+margin-bottom: 15px;
 }
 
-button{
+/* button{
 width:100%;
 padding:12px;
 margin-top:15px;
-background:#e60000;
+background:#313828;
 border:none;
 color:white;
 font-size:16px;
 border-radius:5px;
 cursor:pointer;
-}
+} */
 
-button:hover{
-background:#e60000;
-}
+
 
 .success{
 margin-top:15px;
@@ -92,7 +91,7 @@ border-radius:5px;
 
 <input type="email" name="email" required placeholder="Enter your email">
 
-<button type="submit" name="submit">Unsubscribe</button>
+<button type="submit" name="submit" class="footer-newsletter-btn">Unsubscribe</button>
 
 </form>
 

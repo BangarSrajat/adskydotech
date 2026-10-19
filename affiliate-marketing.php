@@ -982,11 +982,11 @@ include 'includes/header.php';
               <div class="about-exp-text">Years of<br>Excellence</div>
             </div>
             <div class="about-image-main">
-              <img src="assets/img/about/about-1.jpg" alt="NexVera Office" loading="lazy" />
+              <img src="assets/img/about/Q&A1.png" alt="NexVera Office" loading="lazy" />
             </div>
-            <div class="about-image-accent">
+            <!-- <div class="about-image-accent">
               <img src="assets/img/about/about-3.jpg" alt="Team collaboration" loading="lazy" />
-            </div>
+            </div> -->
           </div>
         </div>
         <div class="col-lg-6 pl-lg-5" data-aos="fade-left" data-aos-delay="150">
@@ -1193,97 +1193,25 @@ include 'includes/header.php';
               your account manager.</p>
           </div>
 
-          <!-- Social Links -->
+           <!-- Social Links -->
           <div class="contact-social-wrap">
             <h2 class="mb-3 h5">Find Us Online</h2>
             <div class="d-flex flex-column gap-2">
               <a href="https://www.linkedin.com/company/adskydtech/" class="contact-social-link"><i class="fa-brands fa-linkedin"></i>Linkedin @AdSkydoTech</a>
               <a href="https://x.com/adskydotech" class="contact-social-link"><i class="fa-brands fa-x-twitter"></i> Twitter @AdSkydoTech</a>
-              <a href="https://www.instagram.com/adskydotech/" class="contact-social-link"><i class="fa-brands fa-Instagram"></i> Instagram @AdSkydoTech</a>
-              <a href="#" class="contact-social-link"><i class="fa-brands fa-Facebook"></i>FaceBook @AdSkydoTech </a>
+              <a href="https://www.instagram.com/adskydotech/" class="contact-social-link"><i class="fa-brands fa-instagram"></i>Instagram @AdSkydoTech</a>
+              <a href="https://www.facebook.com/profile.php?id=61594055219655" class="contact-social-link"><i class="fa-brands fa-facebook"></i>FaceBook @AdSkydoTech</a>
                <a href="https://www.youtube.com/@AdSkydoTech" class="contact-social-link"><i class="fa-brands fa-youtube"></i> YouTube @AdSkydoTech</a>
             </div>
           </div>
 
         </div>
         <!-- Right Column -->
-         <div class="col-lg-7" data-aos="fade-right">
-          <div class="contact-form-wrap">
-            <div class="section-tag">Send a Message</div>
-            <h2 class="section-title mb-2">Start the Conversation</h2>
-            <p class="section-subtitle mb-4">Fill in the form and one of our senior engineers will review your project
-              and respond personally &mdash; not a template, not a bot.</p>
-
-            <form class="contact-form-el php-email-form" action="assets/contact.php" method="POST">
-              <div class="row g-4">
-                <div class="col-sm-6">
-                  <label class="contact-form-label" for="contact-fname">First Name *</label>
-                  <input type="text" id="contact-fname" name="first_name" class="contact-form-input" placeholder="Marcus" required />
-                </div>
-                <div class="col-sm-6">
-                  <label class="contact-form-label" for="contact-lname">Last Name *</label>
-                  <input type="text" id="contact-lname" name="last_name" class="contact-form-input" placeholder="Chen" required />
-                </div>
-                <div class="col-sm-6">
-                  <label class="contact-form-label" for="contact-email">Work Email *</label>
-                  <input type="email" id="contact-email" name="email" class="contact-form-input" placeholder="marcus@company.com"
-                    required />
-                </div>
-                <div class="col-sm-6">
-                  <label class="contact-form-label" for="contact-phone">Phone</label>
-                  <input type="tel" id="contact-phone" name="phone" class="contact-form-input" placeholder="+1 (415) 000-0000" />
-                </div>
-                <div class="col-sm-6">
-                  <label class="contact-form-label" for="contact-company">Company</label>
-                  <input type="text" id="contact-company" name="company" class="contact-form-input" placeholder="Your Company" />
-                </div>
-                <div class="col-sm-6">
-                  <label class="contact-form-label" for="contact-budget">Budget Range</label>
-                  <select id="contact-budget" name="budget" class="contact-form-input contact-form-select">
-                    <option value="">Select a range&hellip;</option>
-                    <option value="under-25k">Under $25,000</option>
-                    <option value="25k-75k">$25,000 &ndash; $75,000</option>
-                    <option value="75k-200k">$75,000 &ndash; $200,000</option>
-                    <option value="200k-plus">$200,000+</option>
-                    <option value="not-sure">Not sure yet</option>
-                  </select>
-                </div>
-                <div class="col-12">
-                  <label class="contact-form-label" id="services-label">Service(s) Needed</label>
-                  <div class="contact-checkbox-grid">
-                    <label class="contact-checkbox-item"><input type="checkbox" name="services[]" value="web-dev" /><span>Web  Development</span></label>
-                    <label class="contact-checkbox-item"><input type="checkbox" name="services[]" value="Digital-Marketing" /><span>Digital Marketing
-                        </span></label>
-                    <label class="contact-checkbox-item"><input type="checkbox" name="services[]" value="CMS-Development" /><span>CMS Development</span></label>
-                    <label class="contact-checkbox-item"><input type="checkbox" name="services[]" value="React-Development" /><span>React Development</span></label>
-                    <label class="contact-checkbox-item"><input type="checkbox" name="services[]" value="Graphic-Design" /><span>Graphic Design
-                        </span></label>
-                    <label class="contact-checkbox-item"><input type="checkbox" name="services[]"
-                        value="ui-ux" /><span>Ui & UX</span></label>
-                  </div>
-                </div>
-                <div class="col-12">
-                  <label class="contact-form-label" for="contact-message">Tell us about your project *</label>
-                  <textarea id="contact-message" name="message" class="contact-form-input contact-form-textarea" rows="6"
-                    placeholder="Share your goals, timeline, technical constraints, or anything else relevant&hellip;"
-                    required></textarea>
-                </div>
-                <div class="col-12">
-                  <button type="submit" class="btn-primary-custom">Send Message <i
-                      class="fa-solid fa-arrow-right"></i></button>
-                  <div class="mt-20">
-                    <div class="loading">Loading...</div>
-                    <div class="error-message"></div>
-                    <div class="sent-message">Your message has been sent. Thank you!</div>
-                  </div>
-                </div>
-              </div>
-            </form>
-          </div>
-        </div>
+         <?php include 'includes/form.php';?>
       </div>
     </div>
   </section>
+      
   <!-- end -->
 
   <?php include 'includes/footer.php'; ?>

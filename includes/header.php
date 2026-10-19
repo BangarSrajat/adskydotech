@@ -2,11 +2,13 @@
 <html lang="en">
 
 <head>
+<?php $root = (strpos($_SERVER['REQUEST_URI'], '/adskydo.tech/') === 0) ? '/adskydo.tech/' : '/'; ?>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   
   <meta name="description"
     content="<?php echo $pageDescription; ?>" />
+    
   <title><?php echo $pageTitle; ?></title>
 
   <meta name="keywords" content="<?php echo $pageKeywords; ?>">
@@ -16,7 +18,6 @@
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-
   gtag('config', 'G-6WSB7ZZ952');
 </script>
 
@@ -63,24 +64,26 @@
 
         <nav class="main-nav d-flex align-items-center gap-1">
          
-            <a href="index" class="nav-link">Home 
+            <a href="<?php echo $root; ?>" class="nav-link">Home 
               </a>
-              <a href="about" class="nav-link">About Us</a>
+              <a href="<?php echo $root; ?>about" class="nav-link">About Us</a>
                 <div class="nav-item-dropdown">
-            <a href="services" class="nav-link nav-link-parent">Services <i class="fa-solid fa-chevron-down nav-chevron"></i></a>
+            <a href="<?php echo $root; ?>services" class="nav-link nav-link-parent">Services <i class="fa-solid fa-chevron-down nav-chevron"></i></a>
             <div class="nav-dropdown">
-              <a href="web-development" class="nav-dropdown-link">Web Development</a>
-              <a href="graphic-design" class="nav-dropdown-link">Graphic Design</a>
-              <a href="digital-marketing" class="nav-dropdown-link">Digital Marketing</a>
-              <a href="affiliate-marketing" class="nav-dropdown-link">Affiliate Marketing</a>
-               <a href="hosting" class="nav-dropdown-link">Hosting and Server</a>
-               <a href="performance-marketing" class="nav-dropdown-link">Performance Marketing</a>
+              <a href="<?php echo $root; ?>web-development" class="nav-dropdown-link">Web Development</a>
+              <a href="<?php echo $root; ?>graphic-design" class="nav-dropdown-link">Graphic Design</a>
+              <a href="<?php echo $root; ?>digital-marketing" class="nav-dropdown-link">Digital Marketing</a>
+              <a href="<?php echo $root; ?>affiliate-marketing" class="nav-dropdown-link">Affiliate Marketing</a>
+               <a href="<?php echo $root; ?>hosting" class="nav-dropdown-link">Hosting and Server</a>
+               <a href="<?php echo $root; ?>performance-marketing" class="nav-dropdown-link">Performance Marketing</a>
+               <a href="<?php echo $root; ?>wordpress" class="nav-dropdown-link">Wordpress Development</a>
+              <a href="<?php echo $root; ?>shopify" class="nav-dropdown-link">Shopify Development</a>
             </div>
           </div>
-                <a href="pricing" class="nav-link">Pricing</a>
-              <a href="portfolio" class="nav-link">Portfolio</a>
-              <a href="blog" class="nav-link">Blog</a>
-               <a href="contact" class="nav-link">Contact</a>
+                <a href="<?php echo $root; ?>pricing" class="nav-link">Pricing</a>
+              <a href="<?php echo $root; ?>portfolio" class="nav-link">Portfolio</a>
+              <a href="<?php echo $root; ?>blog" class="nav-link">Blog</a>
+               <a href="<?php echo $root; ?>contact" class="nav-link">Contact</a>
                
             
               
@@ -117,7 +120,7 @@
 
         <div class="nav-actions">
          
-          <a href="contact" class="nav-cta">Start Project</a>
+          <a href="<?php echo $root; ?>contact" class="nav-cta">Start Project</a>
            <!-- <button class="info-panel-btn d-none d-xl-inline-flex" aria-label="Open info panel"><span
               class="info-panel-btn-dot"></span><span class="info-panel-btn-dot"></span><span
               class="info-panel-btn-dot"></span><span class="info-panel-btn-dot"></span><span

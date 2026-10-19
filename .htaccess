@@ -1,5 +1,11 @@
 RewriteEngine On
 
+# 1. blog/ ke andar aayi assets/uploads ki request ko asli folder par bhejo (CSS, JS, logo, images)
+RewriteRule ^blog/(assets|uploads)/(.*)$ $1/$2 [L]
+
+# 2. Blog post: blog/title-text-82 -> blog-single.php?slug=title-text-82
+RewriteRule ^blog/([a-zA-Z0-9-]+-[0-9]+)/?$ blog-single.php?slug=$1 [L,QSA]
+
 # example.com/about ko example.com/about.php se serve karega
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME}.php -f

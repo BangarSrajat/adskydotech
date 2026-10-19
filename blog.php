@@ -1,14 +1,9 @@
-<body>
 <?php 
-
 $pageTitle = "Best Software Development Company in India | YourCompany";
 $pageDescription = "We provide WordPress, PHP, Shopify & Ecommerce development services.";
 $pageKeywords = "software development, wordpress development, php development";
-
 include 'includes/header.php';
 include 'includes/config.php';
-
-
 $limit = 6;
 
 /* current page */
@@ -27,7 +22,6 @@ $total_blogs = $total_row['total'];
 
 /* total pages */
 $total_pages = ceil($total_blogs / $limit);
-
 ?>
 
 <!-- Page Hero -->
@@ -36,7 +30,7 @@ $total_pages = ceil($total_blogs / $limit);
     <div class="page-hero-blob page-hero-blob-2"></div>
     <div class="container">
       <div class="page-hero-content" data-aos="fade-up">
-        <div class="page-hero-tag">NexVera Blog</div>
+        <div class="page-hero-tag">AdskydoTech Blog</div>
         <h1 class="page-hero-title">Ideas &amp; Insights From<br />The Engineering Floor</h1>
         <p class="page-hero-text">Deep dives on AI, architecture, product strategy, and the future of software from
           people building it daily.</p>
@@ -63,15 +57,16 @@ $total_pages = ceil($total_blogs / $limit);
             </div>
             <div class="blog-card-body">
             
-              <a href="blog-single?id=<?php echo $row['id']; ?>">
-                <h2 class="blog-card-title h4"><?php echo $row['title']; ?></h2>
+              <a href="blog/<?php echo $row['slug']; ?>">
+                <p>👁 view: <?php echo $row['views']; ?></p>
+                <h2 class="blog-card-title "><?php echo $row['title']; ?></h2>
               </a>
               <p class="blog-card-excerpt"><?php echo substr(strip_tags($row['description']), 0, 120) . '...'; ?></p>
               <div class="blog-card-meta">
                 <div class="blog-meta-author">
                  
                   
-                  <a href="blog-single?id=<?php echo $row['id']; ?>""><span class="blog-meta-name">Read More</span></a>
+<a href="blog/<?php echo $row['slug']; ?>"><span class="blog-meta-name">Read More</span></a>
                 </div>
                 <!-- <span class="blog-meta-read"><i class="fa-regular fa-calendar"></i> Dec 14, 2024</span> -->
               </div>
@@ -99,4 +94,3 @@ class="<?php if($i==$page) echo 'blog-pag-btn active'; else echo 'blog-pag-btn';
           <!-- Section Label -->
     
   <?php include 'includes/footer.php';?>
-</body>

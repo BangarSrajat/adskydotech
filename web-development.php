@@ -910,9 +910,11 @@ include 'includes/header.php';
               <div class="about-exp-text">Years of<br>Excellence</div>
             </div>
             <div class="about-image-main">
-              <img src="assets/img/about/about-1.jpg" alt="NexVera Office" loading="lazy" />
+              <img src="assets/img/about/Q&A1.png" alt="NexVera Office" loading="lazy" />
             </div>
-            
+            <!-- <div class="about-image-accent">
+              <img src="assets/img/about/about-3.jpg" alt="Team collaboration" loading="lazy" />
+            </div> -->
           </div>
         </div>
         <div class="col-lg-6 pl-lg-5" data-aos="fade-left" data-aos-delay="150">
@@ -1129,15 +1131,15 @@ include 'includes/header.php';
             <div class="d-flex flex-column gap-2">
               <a href="https://www.linkedin.com/company/adskydtech/" class="contact-social-link"><i class="fa-brands fa-linkedin"></i>Linkedin @AdSkydoTech</a>
               <a href="https://x.com/adskydotech" class="contact-social-link"><i class="fa-brands fa-x-twitter"></i> Twitter @AdSkydoTech</a>
-              <a href="https://www.instagram.com/adskydotech/" class="contact-social-link"><i class="fa-brands fa-Instagram"></i> Instagram @AdSkydoTech</a>
-              <a href="#" class="contact-social-link"><i class="fa-brands fa-Facebook"></i>FaceBook @AdSkydoTech </a>
+              <a href="https://www.instagram.com/adskydotech/" class="contact-social-link"><i class="fa-brands fa-instagram"></i>Instagram @AdSkydoTech</a>
+              <a href="https://www.facebook.com/profile.php?id=61594055219655" class="contact-social-link"><i class="fa-brands fa-facebook"></i>FaceBook @AdSkydoTech</a>
                <a href="https://www.youtube.com/@AdSkydoTech" class="contact-social-link"><i class="fa-brands fa-youtube"></i> YouTube @AdSkydoTech</a>
             </div>
           </div>
 
         </div>
         <!-- Right Column -->
-         <?php include 'includes/form.php'; ?>
+       <?php include 'includes/form.php';?>
       </div>
     </div>
   </section>
