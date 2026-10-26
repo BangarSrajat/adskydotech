@@ -5,6 +5,7 @@ include 'inculude/config.php';
 
 if(isset($_POST['submit'])){
     $title = $conn->real_escape_string($_POST['title']);
+    $slug = $conn->real_escape_string($_POST['slug']);
     $alt = mysqli_real_escape_string($conn,$_POST['alt_text']);
     $description = $conn->real_escape_string($_POST['description']);
    
@@ -44,14 +45,14 @@ if(isset($_FILES['image']) && $_FILES['image']['error'] == 0){
    
 
     // Check for duplicate job (title + company + location)
-    $check = $conn->query("SELECT * FROM blog_posts  WHERE title='$title' AND alt_text='$alt' AND description='$description'");
+    $check = $conn->query("SELECT * FROM blog_posts  WHERE title='$title' AND slug='$slug' AND alt_text='$alt' AND description='$description'");
     if($check->num_rows > 0){
         echo "<script>alert('This blog already exists!');</script>";
     } else {
-        $sql = "INSERT INTO blog_posts (title, alt_text, description, image)
-                VALUES ('$title', '$alt', '$description', '$image')";
+        $sql = "INSERT INTO blog_posts (title, slug, alt_text, description, image)
+                VALUES ('$title', '$slug', '$alt', '$description', '$image')";
         if($conn->query($sql)){
-            echo "<script>alert('Job added successfully!'); window.location.href='".$_SERVER['PHP_SELF']."';</script>";
+            echo "<script>alert('blog added successfully!'); window.location.href='".$_SERVER['PHP_SELF']."';</script>";
         } else {
             echo "Error: " . $conn->error;
         }
@@ -66,6 +67,9 @@ if(isset($_FILES['image']) && $_FILES['image']['error'] == 0){
 
 <label>Blog Title</label>
 <input type="text" name="title" required>
+
+<label>slug</label>
+<input type="text" name="slug" required>
 
 <label>Image Alt Text</label>
 <input type="text" name="alt_text" required>

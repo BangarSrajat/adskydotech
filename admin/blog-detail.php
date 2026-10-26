@@ -17,6 +17,7 @@ $result = mysqli_query($conn, $sql);
         <tr>
             <th>ID</th>
             <th>Blog Title</th>
+            <th>slug</th>
             <th>View</th>
             <th>Date</th>
              <th>Delete</th>
@@ -30,6 +31,7 @@ $result = mysqli_query($conn, $sql);
                 echo "<tr>
                         <td>".$row['id']."</td>
                         <td>".$row['title']."</td>
+                         <td>".$row['slug']."</td>
                         <td>" .$row ['views']."</td>
                         <td>" .$row ['created_at']."</td>
                         <td><a href='delete_blog.php?id=".$row['id']." 'onclick=\"return confirm('Are you sure you want to delete this blog post?');\">Delete</a></td>
